@@ -30,18 +30,17 @@ h6 {
 p {
     font-size: 1.6rem;
     line-height: 1.5;
-    margin: 0 0 25px;
 }
 
 @media (min-width: 768px) {
     p {
         font-size: 1.8rem;
         line-height: 1.6;
-        margin: 0 0 35px;
+        margin: 0 0 3px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     p, small {
         font-size: 1.4rem;
         line-height: 1.2;
@@ -221,6 +220,10 @@ p {
 .bild_xx {
     width: 70%;
     padding: 20px;
+    /*text-align: right;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*horiz-align: center;*/
 }
 
 @media (max-width: 991px) {
@@ -291,10 +294,10 @@ p {
     margin: 0;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .blocksatz {
         text-align: justify;
-        padding:3px 2px;
+        padding: 3px 2px;
         margin: 0;
     }
 }
@@ -412,12 +415,17 @@ p {
     padding-top: 25px;
 }
 
-.termine-section ul {
-    padding: 0px 30px;
+.termine-section ul{
+    padding: 0px 0px;
     color: #003A70;
     text-align: left;
     font-family: sans-serif;
-    list-style-type: circle;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.termine-section ul li{
+    font-size: 1.6rem;
 }
 
 .termine-section .termine {
@@ -680,5 +688,10 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.italic {
+    font-style: italic;
+}
+
 
 /*# sourceMappingURL=grayscale.css.map */
