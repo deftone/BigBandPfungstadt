@@ -1,183 +1,356 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Musikverein Pfungstadt</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- mine -->
-    <link rel="stylesheet" href="css/styleIndex.css">
-</head>
-<body>
+<html lang="de">
 
-<!--- HEADER  -->
-<header role="heading">
-    <div class="container_project">
-        <h1 class="spezialFont" role="heading"> Musikverein Pfungstadt </h1>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Musikverein Pfungstadt</title>
+
+    <!-- Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- slick carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://www.orchester-rossdorf.de"/>
+
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Musikverein Pfungstadt</a>
+        <button class="navbar-toggler navbar-toggler-right"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#info">Ensembles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#galery">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+
+<!-- Intro Header -->
+<header class="landingpage">
+    <!-- bild ist im css -->
 </header>
 
-<main>
-    <section id="contact">
-        <div class="container_contact">
-            <div class="contact_info">
-                <div>
-                    <h2 role="heading"> Willkommen auf der Homepage des Musikvereins Pfungstadt e.V. 1926</h2>
-                    <div class="">
-                        <p> Wir sind ein Musikverein, in welchem sich Musiker:innen treffen und gemeinsam in einem
-                            oder mehrerer unserer Ensembles spielen. Details zu den verschiedenen Ensembles findet ihr
-                            unten.</p>
+
+<!-- Info Section -->
+<section id="info" class="content-section">
+    <div class="container">
+        <h2 class="center">Ensembles</h2>
+        <!-- smaller container for orchester part, change background color -->
+        <div class="container background-medium roundedCorners">
+
+
+        </div>
+
+        <!-- smaller container for conductor part, standard background color -->
+        <div class="container">
+            <!-- title -->
+
+            <!-- flexbox container -->
+            <section class="info-section">
+
+
+                <!-- mobile flex item 1 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <a href="indexBigBand.html">
+                        <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoBigBand.jpg" alt="">
+                        <p class="blocksatz bold">Big Band
+                            <br>
+                            Donnerstags, 18:30-21:00
+                        </p>
+                    </a>
+                </div>
+
+                <!-- desktop flex item 1 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+                    <a href="indexBigBand.html">
+                        <p class="blocksatz bold">Big Band</p>
+
+                        <div class="bild_logo " role="img">
+                            <img class="img-fluid rounded-circle " src="img/LogoBigBand.jpg" alt="">
+                        </div>
+
+                        <p class="blocksatz">
+                            Donnerstags, 18:30-21:00
+                        </p>
+                    </a>
+                </div>
+
+
+                <!-- mobile flex item 2 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoBlech.png" alt="">
+                    <p class="blocksatz bold">Blechbläser
+                        <br> Mittwochs, 18:30-21:00
+                    </p>
+                </div>
+
+                <!-- desktop flex item 2 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+                    <p class="blocksatz bold">Blechbläser</p>
+                    <div class="bild_logo " role="img">
+                        <img class="img-fluid rounded-circle " src="img/LogoBlech.png" alt="">
                     </div>
 
+                    <p class="blocksatz">
+                        Mittwochs, 18:30-21:00
+                    </p>
+                </div>
+
+                <!-- mobile flex item 3 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoFusion.png" alt="">
+                    <p class="blocksatz bold">Fusion Band
+                        <br>
+                        Mittwochs, 18:30-21:00
+                    </p>
+                </div>
+
+                <!-- desktop flex item 3 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+
+                    <p class="blocksatz bold">Fusion Band</p>
+
+                    <div class="bild_logo " role="img">
+                        <img class="img-fluid rounded-circle " src="img/LogoFusion.png" alt="">
+                    </div>
+
+
+                    <p class="blocksatz">
+                        Mittwochs, 18:30-21:00
+                        <!--                        <br>(14-tägig)-->
+                    </p>
+                </div>
+
+            </section>
+
+            <!-- flexbox container -->
+            <section class="info-section">
+
+
+                <!-- mobile flex item 1 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoSaxophon.png" alt="">
+                    <p class="blocksatz bold">Sax Plus
+                        <br> aktuell keine Probe</p>
+                </div>
+
+                <!-- flex item 1 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+                    <p class="blocksatz bold">Sax Plus</p>
+
+                    <div class="bild_logo " role="img">
+                        <img class="img-fluid rounded-circle " src="img/LogoSaxophon.png" alt="">
+                    </div>
+
+                    <p class="blocksatz">
+                        aktuell keine Probe
+                    </p>
+                </div>
+
+                <!-- mobile flex item 2 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoStreicher.png" alt="">
+                    <p class="blocksatz bold">Streicher
+                        <br>Mittwochs, 18:30-21:00</p>
+                </div>
+
+                <!-- desktop flex item 2 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+                    <p class="blocksatz bold">Streicher</p>
+                    <div class="bild_logo " role="img">
+                        <img class="img-fluid rounded-circle " src="img/LogoStreicher.png" alt="">
+                    </div>
+
+                    <p class="blocksatz">
+                        Mittwochs, 18:30-21:00
+                    </p>
+                </div>
+
+                <!-- mobile flex item 3 -->
+                <div class="container_media_side" id="hidden_desktop" role="img">
+                    <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/LogoSwing.png" alt="">
+                    <p class="blocksatz bold">Swing Band
+                        <br>Dienstags, 14:00-17:00</p>
+                </div>
+
+                <!-- desktop flex item 3 -->
+
+                <div class="container_side hidden_mobile" role="contentinfo">
+
+                    <p class="blocksatz bold">Swing Band</p>
+
+                    <div class="bild_logo " role="img">
+                        <img class="img-fluid rounded-circle " src="img/LogoSwing.png" alt="">
+                    </div>
+
+
+                    <p class="blocksatz">
+                        Dienstags, 14:00-17:00
+                    </p>
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- smaller container for rehearsal part, change background color -->
+        <div class="container background-medium roundedCorners">
+
+            <!-- title -->
+            <h2 class="header_left hidden_mobile">Die Proben</h2>
+            <!-- flexbox container -->
+            <section class="info-section-background">
+
+                <h2 class="header_left" id="hidden_desktop">Die Proben</h2>
+                <!-- flex item 1 -->
+                <div class="container_side" role="contentinfo">
+
+                    <p class="blocksatz"> Unsere Proben finden in der Lessingschule, Kirchstrasse 26 in Pfungstadt statt.
+                        Die jeweiligen Tage bzw. Zeiten der Ensembles sind oben angegeben.
+                        Sax Plus pausiert gerade und die Fusion Band probt nur 14-tägig.
+                        <br>
+                        <br>
+                        Hast du Interesse bei einem Ensemble mitzuspielen? Melde dich bei
+                        vorstand[at]musikverein-pfungstadt.de
+                    </p>
+
+                    <!-- mobile flex item only -->
+                    <div id="hidden_desktop" role="img">
+                        <img class="img-fluid rounded-circle" id="hidden_desktop" src="img/Probenort.png" alt="">
+                    </div>
+
+                </div>
+                <!-- flex item 2 -->
+                <div class="container_media_side" role="img">
+                    <img class="img-fluid rounded-circle hidden_mobile" src="img/Probenort.png" alt="">
+                </div>
+
+
+            </section>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Galery Section -->
+<section id="galery" class="background-medium termine-section content-section text-center">
+    <div class="container background-medium">
+        <div class="col-md-10 mx-auto galery roundedCorners">
+            <h2>Galerie</h2>
+
+            <div class="wrapper">
+                <!-- JUMBOTRON -->
+                <div class="carousel">
+                    <div class="jumbotron jumbotron-orchester1"></div>
+                    <div class="jumbotron jumbotron-orchester2"></div>
+                </div>
+                <!-- transparent div with buttons -->
+                <div id="transparent" class="gallery-nav hidden_mobile">
+                    <a class="button prev"><</a>
+                    <a class="button next">></a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- PROJECTS -->
-    <section id="projects">
-        <div class="container_project">
-            <h1 class="spezialFont" role="heading"> Ensembles </h1>
+<!-- Contact Section -->
 
-            <div class="subcontainer_project">
+<section id="contact" class="content-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Kontakt</h2>
 
-                <div class="container_project_box">
+                <br>vorstand[at]musikverein-pfungstadt.de
 
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/LogoBigBand.jpg" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Big Band</h2>
-                            <p> Probe: Donnerstags, 18:30-21:00</p>
-                            <p> Leiter: Jon Wood</p>
-                            <a href="indexBigBand.html">
-                                <p class="go_button"> Zur Big Band </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container_project_box">
-
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/tmp.png" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Blechbläser</h2>
-                            <p> Probe: ?</p>
-                            <p> Leiter: Peter Leisemann</p>
-
-                            <p class="go_button"> aktuell kein link </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container_project_box">
-
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/tmp.png" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Fusion Band</h2>
-                            <p> Probe: Mittwochs, 18:30-21:00</p>
-                            <p> Leiter: ?</p>
-
-                            <p class="go_button"> aktuell kein link </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container_project_box">
-
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/tmp.png" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Sax Plus</h2>
-                            <p> Probe: aktuell keine Probe</p>
-                            <p> Leiter: ?</p>
-
-                            <p class="go_button"> aktuell kein link</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container_project_box">
-
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/tmp.png" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Streicher</h2>
-                            <p> Probe: Donnerstags, 18:30-21:00</p>
-                            <p> Leiter: </p>
-
-                            <p class="go_button"> aktuell kein link</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container_project_box">
-
-                    <div class="container_image" id="hidden_mobile" role="presentation">
-                        <img src="img/tmp.png" alt="" role="img">
-
-                        <div class="project_info">
-                            <h2> Swing Band</h2>
-                            <p> Probe: ?</p>
-                            <p> Leiter: </p>
-
-                            <p class="go_button"> aktuell kein link</p>
-                        </div>
-                    </div>
-                </div>
+                </p>
 
 
             </div>
         </div>
-    </section>
 
-    <!-- CONTACT -->
-    <section id="contact">
-        <div class="container_contact">
-            <h1 class="spezialFont" role="heading"> Kontakt </h1>
-            <div class="contact_info">
-                <div>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span> email: </span>
-                    <p> vorstand[at]musikverein-pfungstadt.de </p>
-                </div>
+    </div>
+</section>
 
-                <div>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span> Probe: </span>
-                    <p> Kirchstrasse 26 in Pfungstadt </p>
-                </div>
+
+<!-- Footer -->
+<footer class="content-section ">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <p class="center">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutzerklärung</a>
+                </p>
             </div>
         </div>
-    </section>
+
+    </div>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-        <i class="fa fa-slack fa-2x" aria-hidden="true"></i>
-        <i class="fa fa-linux fa-2x" aria-hidden="true"></i>
-    </footer>
+</footer>
 
-</main>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- SCRIPTS -->
-<!-- jquery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+
 <!-- slick -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
-<!-- mine -->
-<script src="js/mainIndex.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/grayscale.js"></script>
+<script src="js/main.js"></script>
+
 </body>
+
 </html>

@@ -226,6 +226,15 @@ p {
     /*horiz-align: center;*/
 }
 
+.bild_logo {
+    width: 90%;
+    padding: 20px;
+    /*text-align: right;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*horiz-align: center;*/
+}
+
 @media (max-width: 991px) {
     .container_media_side {
         width: 80%;
