@@ -613,6 +613,10 @@ p {
     background-image: url("../img/blech2.png");
 }
 
+.jumbotron-blech3 {
+    background-image: url("../img/BlechWeihnMarkt23.jpg");
+}
+
 @media (min-width: 992px) {
     .content-section {
         padding-top: 30px;
