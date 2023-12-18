@@ -594,6 +594,14 @@ p {
     background-image: url("../img/Bigband-2022.jpg");
 }
 
+.jumbotron-blech1 {
+    background-image: url("../img/blech1.png");
+}
+
+.jumbotron-blech2 {
+    background-image: url("../img/blech2.png");
+}
+
 @media (min-width: 992px) {
     .content-section {
         padding-top: 30px;
