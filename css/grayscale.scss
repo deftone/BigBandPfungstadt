@@ -323,15 +323,6 @@ p {
   background-color: $color_medium;
 }
 
-.partitur-background{
-  background: url('../img/PartiturAlleStimmenHeller.jpg') no-repeat center center scroll;
-  background-color: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .info-section-background{
   background-color: $color_medium;
   display: flex;

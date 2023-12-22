@@ -356,14 +356,6 @@ p {
     background-color: #397FBF;
 }
 
-.partitur-background {
-    background: url("../img/PartiturAlleStimmenHeller.jpg") no-repeat center center scroll;
-    background-color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .band-background {
     background: url("../img/Bigband-2022.jpg") no-repeat center center scroll;
