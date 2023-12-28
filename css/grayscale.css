@@ -589,12 +589,16 @@ p {
     }
 }
 
-.jumbotron-orchester1 {
+.jumbotron-bb1 {
     background-image: url("../img/Pfungo.jpg");
 }
 
-.jumbotron-orchester2 {
+.jumbotron-bb2 {
     background-image: url("../img/Bigband-2022.jpg");
+}
+
+.jumbotron-bb3 {
+    background-image: url("../img/BBAdvent2023.png");
 }
 
 .jumbotron-blech1 {
