@@ -144,7 +144,7 @@ p {
 .landingpage {
     height: 50rem;
     padding-top: 10rem;
-    background: url("../img/Pfungo.jpg") no-repeat center center scroll;
+    background: url("../img/Phungo2024.png") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,7 +173,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .landingpage {
-        background: url("../img/Pfungo.jpg") no-repeat center center scroll;
+        background: url("../img/Phungo2024.png") no-repeat center center scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -184,7 +184,7 @@ p {
 
 @media (min-width: 1200px) {
     .landingpage {
-        background: url("../img/Pfungo.jpg") no-repeat center center scroll;
+        background: url("../img/Phungo2024.png") no-repeat center center scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -590,16 +590,43 @@ p {
 }
 
 .jumbotron-bb1 {
-    background-image: url("../img/Pfungo.jpg");
-}
-
-.jumbotron-bb2 {
-    background-image: url("../img/Bigband-2022.jpg");
+    background-image: url("../img/Phungo2024.png");
 }
 
 .jumbotron-bb3 {
-    background-image: url("../img/BBAdvent2023.png");
+    background-image: url("../img/Phungo24_1.jpg");
 }
+
+.jumbotron-bb4 {
+    background-image: url("../img/Phungo24_2.jpg");
+}
+
+
+.jumbotron-bb5 {
+    background-image: url("../img/Phungo24_3.jpg");
+}
+
+
+.jumbotron-bb6 {
+    background-image: url("../img/Phungo24_4.jpg");
+}
+
+
+.jumbotron-bb7 {
+    background-image: url("../img/Phungo24_5.jpg");
+}
+
+
+.jumbotron-bb8 {
+    background-image: url("../img/Phungo24_6.jpg");
+}
+
+
+.jumbotron-bb9 {
+    background-image: url("../img/BB_Askl2024.jpg");
+}
+
+
 
 .jumbotron-blech1 {
     background-image: url("../img/blech1.png");
