@@ -163,6 +163,17 @@ p {
     height: 100%;
 }
 
+.landingpageKlassiker {
+    height: 50rem;
+    padding-top: 10rem;
+    background: url("../img/KlassikerBanner2.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
 @media (max-width: 768px) {
     .landingpage {
         height: 0;
@@ -359,6 +370,16 @@ p {
 
 .band-background {
     background: url("../img/Bigband-2022.jpg") no-repeat center center scroll;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.klassiker-background {
+    background: url("../img/klassikerbackground.jpg") no-repeat center center scroll;
     background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -639,6 +660,48 @@ p {
 .jumbotron-blech3 {
     background-image: url("../img/BlechWeihnMarkt23.jpg");
 }
+
+
+
+.jumbotron-klassiker1 {
+    background-image: url("../img/klassiker1.jpg");
+}
+
+.jumbotron-klassiker2 {
+    background-image: url("../img/klassiker2.jpg");
+}
+
+.jumbotron-klassiker3 {
+    background-image: url("../img/klassiker3.jpg");
+}
+
+.jumbotron-klassiker4 {
+    background-image: url("../img/klassiker4.jpg");
+}
+
+.jumbotron-klassiker5 {
+    background-image: url("../img/klassiker5.jpg");
+}
+
+.jumbotron-klassiker6 {
+    background-image: url("../img/klassiker6.jpg");
+}
+
+.jumbotron-klassiker7 {
+    background-image: url("../img/klassiker7.jpg");
+}
+
+.jumbotron-klassiker8 {
+    background-image: url("../img/klassiker8.jpg");
+}
+
+.jumbotron-klassiker9 {
+    background-image: url("../img/klassiker9.jpg");
+}
+
+
+
+
 
 @media (min-width: 992px) {
     .content-section {
