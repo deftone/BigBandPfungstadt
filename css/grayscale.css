@@ -52,6 +52,13 @@ p {
     border-radius: 2rem;
 }
 
+.presseArtikel {
+    width: 100%;      /* passt sich an die Breite des Containers an */
+    max-width: 400px; /* optional: Obergrenze, z. B. 400 px */
+    height: auto;     /* Seitenverhältnis bleibt korrekt */
+    border-radius: 12px; /* deine abgerundeten Ecken */
+}
+
 /*** GENERAL: MOBILE & DESKTOP SCREEN ***/
 @media only screen and (max-width: 991px) {
     .hidden_mobile {
@@ -141,41 +148,35 @@ p {
     }
 }
 
-.landingpage {
-    height: 50rem;
-    padding-top: 10rem;
-    background: url("../img/Phungo2024.png") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.landingpage,
+.landingpageKlassiker,
+.landingpageBlech{
     height: 100%;
+    padding-top: 10rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
-.landingpageBlech {
-    height: 50rem;
-    padding-top: 10rem;
-    background: url("../img/blechBanner.png") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
+.landingpage {
+    background-image: url("../img/Phungo2024.png");
 }
 
 .landingpageKlassiker {
-    height: 50rem;
-    padding-top: 10rem;
-    background: url("../img/KlassikerBanner2.jpg") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
+    background-image: url("../img/KlassikerBanner2.jpg");
 }
 
+
+.landingpageBlech {
+    background: url("../img/blechBanner.png") no-repeat center center scroll;
+}
+
+
 @media (max-width: 768px) {
-    .landingpage {
+    .landingpage,
+    .landingpageKlassiker,
+    .landingpageBlech {
         height: 0;
         margin-top: 60px;
         padding-top: 56.5%;
@@ -183,8 +184,10 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .landingpage {
-        background: url("../img/Phungo2024.png") no-repeat center center scroll;
+    .landingpage,
+    .landingpageKlassiker,
+    .landingpageBlech {
+        /*background: url("../img/Phungo2024.png") no-repeat center center scroll;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -194,8 +197,10 @@ p {
 }
 
 @media (min-width: 1200px) {
-    .landingpage {
-        background: url("../img/Phungo2024.png") no-repeat center center scroll;
+    .landingpage,
+    .landingpageKlassiker,
+    .landingpageBlech {
+        /*background: url("../img/Phungo2024.png") no-repeat center center scroll;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
