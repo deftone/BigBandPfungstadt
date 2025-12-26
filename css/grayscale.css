@@ -150,6 +150,7 @@ p {
 
 .landingpage,
 .landingpageKlassiker,
+.landingpageFusion,
 .landingpageBlech{
     height: 100%;
     padding-top: 10rem;
@@ -172,6 +173,11 @@ p {
     background: url("../img/blechBanner.png") no-repeat center center scroll;
 }
 
+.landingpageFusion {
+    background: url("../img/FusionBand2.jpg") no-repeat center center;
+    background-size: contain;
+}
+
 
 @media (max-width: 768px) {
     .landingpage,
@@ -182,10 +188,18 @@ p {
         padding-top: 56.5%;
     }
 }
+/*das Bild der Fusionband zickt rum :( */
+@media (max-width: 768px) {
+    .landingpageFusion{
+        margin-top: 60px;
+        height: 40vh;
+    }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .landingpage,
     .landingpageKlassiker,
+    .landingpageFusion,
     .landingpageBlech {
         /*background: url("../img/Phungo2024.png") no-repeat center center scroll;*/
         -webkit-background-size: cover;
@@ -199,6 +213,7 @@ p {
 @media (min-width: 1200px) {
     .landingpage,
     .landingpageKlassiker,
+    .landingpageFusion,
     .landingpageBlech {
         /*background: url("../img/Phungo2024.png") no-repeat center center scroll;*/
         -webkit-background-size: cover;
