@@ -682,8 +682,6 @@ p {
     background-image: url("../img/BlechWeihnMarkt23.jpg");
 }
 
-
-
 .jumbotron-klassiker1 {
     background-image: url("../img/klassiker1.jpg");
 }
@@ -718,6 +716,10 @@ p {
 
 .jumbotron-klassiker9 {
     background-image: url("../img/klassiker9.jpg");
+}
+
+.jumbotron-fusion {
+    background-image: url("../img/FusionBand2.jpg");
 }
 
 
