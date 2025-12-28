@@ -147,8 +147,9 @@ p {
         opacity: 1;
     }
 }
-
+/*das hier ist fuers smartphone*/
 .landingpage,
+.landingpageBigBand,
 .landingpageKlassiker,
 .landingpageFusion,
 .landingpageBlech{
