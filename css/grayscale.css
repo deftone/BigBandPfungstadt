@@ -834,5 +834,20 @@ body {
     font-style: italic;
 }
 
+/*kann weg wen die jubil konzerte rausfliegen */
+.concert-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.sparkasse-logo {
+    width: 140px;
+    height: auto;
+    border-radius: 2rem;
+    background-color: red;
+}
 
 /*# sourceMappingURL=grayscale.css.map */
